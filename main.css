@@ -14,7 +14,7 @@
 }
 
 .calculator {
-    background-color: #22252D;
+    background-color: #1d2026;
     width: 100%;
     max-width: 375px;
     min-height: 640px;
@@ -22,6 +22,7 @@
     flex-direction: column;
     border-radius: 1.5rem;
     overflow: hidden;
+    box-shadow: -10px 16px teal;
     
 }
 
@@ -40,6 +41,9 @@
 .display .input {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
+    background-color: #292D36;
+    padding: 10px;
+    border-radius: 10%;
 }
 
 .display .output {
@@ -60,13 +64,12 @@
 
 .keys {
     background-color: #292D36;
-    padding: 1.rem;
-    border-radius: 10% / 60%;
+    padding: 1rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 1rem;
-    box-shadow: 0px, -2px, 16px rgba(0, 0 , 0, 0.2);
+    box-shadow: 0px, -2px, 20px rgba(0, 0 , 0, 0.2);
 }
 
 .keys .key{
@@ -79,6 +82,7 @@
     border-radius: 1rem;
     transition: 0.2s;
     user-select: none;
+    box-shadow: 5px -5px rgb(3, 102, 102);
 }
 
 .keys .key span {
