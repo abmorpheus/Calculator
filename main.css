@@ -38,6 +38,8 @@ body {
     color: white;
     text-align: right;
     flex: 1 1 0%;
+    word-wrap: break-word;
+    word-break: break-all;
     
 }
 
