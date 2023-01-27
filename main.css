@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+}
 
+body {
+    background: linear-gradient(to right, teal, #2a2f38);
 }
 
 .app {
